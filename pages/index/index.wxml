@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container" bindtap="nextPage">
+  <image class="bg" src="../../assets/bg.jpg" />
+  <view class="kuang-container" animation="{{animationDataKuang}}">
+    <image class="kuang" src="../../assets/kuang.png" />
+    <view class="kuang-name">
+      <text>陈沛</text>
+      <text>殷萍</text>
+    </view>
+  </view>
+  <view class="xi-container" animation="{{animationData}}">
+    <image class="xi" src="../../assets/xi.png" />
+  </view>
+  <image class="star1" animation="{{animationDataStar}}" src="../../assets/star1.png" />
+  <image class="star2" animation="{{animationDataStar}}" src="../../assets/star2.png" />
+  <image class="cloud1" animation="{{animationDataCloud1}}" src="../../assets/cloud1.png" />
+  <image class="cloud2" animation="{{animationDataCloud1}}" src="../../assets/cloud2.png" />
+  <image class="cloud3" animation="{{animationDataCloud3}}" src="../../assets/cloud3.png" />
+</view>

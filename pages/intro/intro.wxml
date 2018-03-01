@@ -1,0 +1,25 @@
+<!--pages/intro.wxml-->
+<view class="container">
+  <image class="bg" src="../../assets/bg2.jpg" />
+  <text class="top-text">WE INVITE YOU TO WITNESS OUR WEDDING</text>
+  <image class="text-bg" src="../../assets/kuang2.png" />
+  <view class="text-container">
+    <view class='text-group'>
+      <text class="text-style">两姓联姻，一堂缔约</text>
+      <text class="text-style">良缘永结，匹配同称</text>
+    </view>
+    <view class='text-group'>
+      <text class="text-style">看此日桃花灼灼，宜室宜家</text>
+      <text class="text-style">卜他年瓜瓞绵绵，尔昌尔炽</text>
+    </view>
+    <view class='text-group'>
+      <text class="text-style">谨以白头之约，书向鸿笺</text>
+      <text class="text-style">好将红叶之盟，载明鸳谱</text>
+    </view>
+    <view class='text-group'>
+      <text class="text-style">新郎+新娘  敬邀</text>
+    </view>
+  </view>
+  <image class="avatar" src="../../assets/avatar.png" />
+  <text class="bottom-text">MARRIAGE IS A LIFE OF SHARING</text>
+</view>
