@@ -20,6 +20,22 @@
   height: 800rpx;
 }
 
+.fingerprinter {
+  position: absolute;
+  width: 100rpx;
+  height: 80rpx;
+  top: 880rpx;
+}
+
+.fingerprinter-text {
+  font-size: 25rpx;
+  position: absolute;
+  height: 80rpx;
+  top: 980rpx;
+  color: #bab296;
+  font-family:楷体;
+}
+
 .kuang-container {
   opacity: 0;
   position: absolute;
@@ -33,6 +49,7 @@
   width: 350rpx;
   height: 100rpx;
 }
+
 .kuang-name {
   position: absolute;
   width: 350rpx;
@@ -41,6 +58,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-family:楷体;
 }
 
 .star1 {
@@ -61,24 +79,24 @@
 
 .cloud1 {
   position: absolute;
-  top:200rpx;
-  right:-80rpx;
+  top: 200rpx;
+  right: -80rpx;
   width: 230rpx;
   height: 80rpx;
 }
 
 .cloud2 {
   position: absolute;
-  top:700rpx;
-  right:-80rpx;
+  top: 700rpx;
+  right: -80rpx;
   width: 180rpx;
   height: 70rpx;
 }
 
 .cloud3 {
   position: absolute;
-  top:800rpx;
-  left:-150rpx;
+  top: 800rpx;
+  left: -150rpx;
   width: 200rpx;
   height: 70rpx;
 }

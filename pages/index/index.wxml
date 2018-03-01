@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container" bindtap="nextPage">
+<view class="container">
   <image class="bg" src="../../assets/bg.jpg" />
   <view class="kuang-container" animation="{{animationDataKuang}}">
     <image class="kuang" src="../../assets/kuang.png" />
@@ -11,8 +11,10 @@
   <view class="xi-container" animation="{{animationData}}">
     <image class="xi" src="../../assets/xi.png" />
   </view>
-  <image class="star1" animation="{{animationDataStar}}" src="../../assets/star1.png" />
-  <image class="star2" animation="{{animationDataStar}}" src="../../assets/star2.png" />
+  <image class="fingerprinter"  bindtap="nextPage" animation="{{1}}" src="../../assets/fingerprinter.png" />
+  <text class="fingerprinter-text"  bindtap="nextPage">点击，见证幸福</text>
+  <image class="star1" src="../../assets/star1.png" />
+  <image class="star2" src="../../assets/star2.png" />
   <image class="cloud1" animation="{{animationDataCloud1}}" src="../../assets/cloud1.png" />
   <image class="cloud2" animation="{{animationDataCloud1}}" src="../../assets/cloud2.png" />
   <image class="cloud3" animation="{{animationDataCloud3}}" src="../../assets/cloud3.png" />

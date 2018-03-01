@@ -1,0 +1,25 @@
+<!--pages/address/address.wxml-->
+<view class="container">
+  <image class="bg" src="../../assets/bg2.jpg" />
+  <text class="top-text">WE INVITE YOU TO WITNESS OUR WEDDING</text>
+  <image class="text-bg" src="../../assets/kuang2.png" />
+  <view class="text-container">
+    <view class='text-group'>
+      <text class="text-style">在最美丽的季节</text>
+      <text class="text-style">我们相遇 ，相爱</text>
+      <text class="text-style">今天等待大家一起见证</text>
+    </view>
+
+    <view class='text-group'>
+      <text class="text-style-big">陈沛&殷萍</text>
+      <text class="text-style-middle">2018年5月1日 18:18</text>
+    </view>
+
+    <view class='text-group'>
+      <text class="text-style">地址：江都区武坚镇 鑫武宴会中心</text>
+      <button class="nav" ontap="bindtap">一键导航</button>
+    </view>
+  </view>
+  <image class="avatar" src="../../assets/avatar.png" />
+  <text class="bottom-text">MARRIAGE IS A LIFE OF SHARING</text>
+</view>

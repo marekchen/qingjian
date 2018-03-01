@@ -10,9 +10,21 @@ Page({
     animationDataCloud1: {},
     animationDataCloud3: {}
   },
+  onShareAppMessage: function (res) {
+    return {
+      title: '陈沛和殷萍的婚礼请柬',
+      path: '/pages/index/index',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '婚礼请柬'
+      title: '陈沛和殷萍的婚礼请柬'
     })
   },
   onShow: function () {

@@ -1,5 +1,5 @@
 <!--pages/intro.wxml-->
-<view class="container">
+<view class="container" ontap="nextPage">
   <image class="bg" src="../../assets/bg2.jpg" />
   <text class="top-text">WE INVITE YOU TO WITNESS OUR WEDDING</text>
   <image class="text-bg" src="../../assets/kuang2.png" />
